@@ -1,0 +1,96 @@
+.setting{
+    display: flex;
+}
+
+.settingWrapper{
+    flex:9;
+    margin-left: 20px;
+}
+.settingTitle{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.settingTitleUpdate{
+    color: white;
+    background-color: teal;
+    border: none;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.settingTitleDelete{
+    color: white;
+    background-color: rgb(209, 43, 67);
+    border: none;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.settingpp{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.settingForm > label{
+    margin-top: 20px;
+    color: gray;
+
+}
+.settingppImg{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.settingIcon{
+    background-color: aliceblue;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgb(140, 135, 135);
+    cursor: pointer;
+
+}
+.inputForm{
+    display: flex;
+    flex-direction: column;   
+    /* align-items: center;
+    justify-content: center; */
+    width:50%;
+    line-height: 1.6; 
+    margin-top: 20px;
+}
+.inputForm > label {
+font-size: 20px;
+}
+.settingInput{
+    border: none;
+    width: 100%;
+    /* height: 50px; */
+    padding: 5px;
+    font-size: 30px;
+}
+.settingInput:focus{
+    outline: none;
+}
+
+.settingButton{
+    margin-top: 20px;
+    align-self: center;
+    color: white;
+    background-color: teal;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
